@@ -30,5 +30,6 @@ $ bumble-swiper <facebook-email> <facebook-password>
 Clone this repo and navigate to the correct directory, then proceed as follows:
 
 ```
-$ make && python3 bumble-swiper.py <facebook-email> <facebook-password>
+$ make
+$ python3 bumble-swiper.py <facebook-email> <facebook-password>
 ```
