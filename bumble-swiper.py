@@ -41,6 +41,12 @@ def log_in_with_facebook(driver, email, password):
     # back to main window
     driver.switch_to.window(driver.window_handles[0])
 
+def dismiss_match(driver):
+    try:
+        driver.find_element_by_xpath("//div[contains(@class, 'button')//span[contains(text(), 'Continue Bumbling')]]/parent::*/parent::*/parent::*").click()
+    except:
+        pass
+
 def swipe_right(driver):
     while True:
         # swipe right if the window is loaded
@@ -49,6 +55,9 @@ def swipe_right(driver):
             return True
         except NoSuchElementException:
             pass
+        except ElementClickInterceptedException:
+            dismiss_match(driver)
+            return True
 
         if all_done(driver):
             return False
