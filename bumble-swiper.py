@@ -3,6 +3,7 @@ from selenium import webdriver
 from selenium.common.exceptions import *
 
 import argparse
+from time import sleep
 
 def log_in_with_facebook(driver, email, password):
     while True:
@@ -97,8 +98,10 @@ if __name__ == "__main__":
 
     # keep swiping right until we're caught up
     while True:
+        # refresh page until we get new matches
         if not swipe_right(driver):
-            print("All caught up!")
-            break
+            print("All caught up... Refreshing until matches available... Ctrl-C to quit.")
+            driver.execute_script("location.reload(true);")
+            sleep(5)
 
     driver.close()
