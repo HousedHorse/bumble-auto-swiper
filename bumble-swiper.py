@@ -1,4 +1,4 @@
-#! /usr/bin/python
+#! /usr/bin/python3
 from selenium import webdriver
 from selenium.common.exceptions import *
 

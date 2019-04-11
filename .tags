@@ -11830,6 +11830,7 @@ aliasmbcs	.venv/lib/python3.7/site.py	/^def aliasmbcs():$/;"	f
 aliceblue	.venv/lib/python3.7/site-packages/selenium/webdriver/remote/isDisplayed.js	/^q[32]="invalid selector";q[51]="invalid selector";q[52]="invalid selector";q[17]="javascript err/;"	p	class:AnonymousFunction35bb18ab0100.AnonymousFunction35bb18ab0200.ia
 alive	.venv/lib/python3.7/weakref.py	/^    def alive(self):$/;"	m	class:finalize
 all	.venv/lib/python3.7/config-3.7m-x86_64-linux-gnu/Makefile	/^all: build_all$/;"	t
+all	Makefile	/^all:$/;"	t
 all_feature_names	.venv/lib/python3.7/__future__.py	/^all_feature_names = [$/;"	v
 all_schemes	.venv/lib/python3.7/site-packages/pip/_internal/vcs/__init__.py	/^    def all_schemes(self):$/;"	m	class:VcsSupport
 all_selected_options	.venv/lib/python3.7/site-packages/selenium/webdriver/support/select.py	/^    def all_selected_options(self):$/;"	m	class:Select
@@ -11953,7 +11954,7 @@ args	.venv/include/python3.7m/Python-ast.h	/^            arguments_ty args;$/;"	
 args	.venv/include/python3.7m/Python-ast.h	/^            arguments_ty args;$/;"	m	struct:_stmt::__anon48160897060a::__anon481608970808	typeref:typename:arguments_ty
 args	.venv/include/python3.7m/Python-ast.h	/^            asdl_seq *args;$/;"	m	struct:_expr::__anon481608971d0a::__anon481608972d08	typeref:typename:asdl_seq *
 args	.venv/include/python3.7m/Python-ast.h	/^    asdl_seq *args;$/;"	m	struct:_arguments	typeref:typename:asdl_seq *
-args	swipe.py	/^    args     = parser.parse_args()$/;"	v
+args	bumble-swiper.py	/^    args     = parser.parse_args()$/;"	v
 argument	.venv/include/python3.7m/graminit.h	/^#define argument /;"	d
 arguments	.venv/include/python3.7m/Python-ast.h	/^#define arguments(/;"	d
 arguments	.venv/lib/python3.7/site-packages/selenium/webdriver/chrome/options.py	/^    def arguments(self):$/;"	m	class:Options
@@ -12351,6 +12352,7 @@ builtins	.venv/lib/python3.7/site-packages/pip/_vendor/distlib/_backport/tarfile
 builtins	.venv/lib/python3.7/site-packages/pip/_vendor/distlib/compat.py	/^    import __builtin__ as builtins$/;"	I
 builtins	.venv/lib/python3.7/site.py	/^    import __builtin__ as builtins$/;"	I
 builtins_copy	.venv/include/python3.7m/pystate.h	/^    PyObject *builtins_copy;$/;"	m	struct:_is	typeref:typename:PyObject *
+bumble-auto-swiper	README.md	/^# bumble-auto-swiper$/;"	c
 burlywood	.venv/lib/python3.7/site-packages/selenium/webdriver/remote/isDisplayed.js	/^q[32]="invalid selector";q[51]="invalid selector";q[52]="invalid selector";q[17]="javascript err/;"	p	class:AnonymousFunction35bb18ab0100.AnonymousFunction35bb18ab0200.ia
 byte2int	.venv/lib/python3.7/site-packages/pip/_vendor/six.py	/^    byte2int = operator.itemgetter(0)$/;"	v
 byte2int	.venv/lib/python3.7/site-packages/pip/_vendor/six.py	/^    def byte2int(bs):$/;"	f
@@ -14024,7 +14026,7 @@ drag_and_drop	.venv/lib/python3.7/site-packages/selenium/webdriver/common/action
 drag_and_drop_by_offset	.venv/lib/python3.7/site-packages/selenium/webdriver/common/action_chains.py	/^    def drag_and_drop_by_offset(self, source, xoffset, yoffset):$/;"	m	class:ActionChains
 drain_and_release_conn	.venv/lib/python3.7/site-packages/pip/_vendor/urllib3/connectionpool.py	/^        def drain_and_release_conn(response):$/;"	f	member:HTTPConnectionPool.urlopen	file:
 drain_and_release_conn	.venv/lib/python3.7/site-packages/urllib3/connectionpool.py	/^        def drain_and_release_conn(response):$/;"	f	member:HTTPConnectionPool.urlopen	file:
-driver	swipe.py	/^    driver = webdriver.Firefox()$/;"	v
+driver	bumble-swiper.py	/^    driver = webdriver.Firefox()$/;"	v
 dry_run	.venv/lib/python3.7/site-packages/pip/_vendor/distlib/scripts.py	/^    def dry_run(self):$/;"	m	class:ScriptMaker
 dry_run	.venv/lib/python3.7/site-packages/pip/_vendor/distlib/scripts.py	/^    def dry_run(self, value):$/;"	m	class:ScriptMaker
 dst	.venv/lib/python3.7/site-packages/pip/_vendor/pytoml/utils.py	/^    def dst(self, dt):$/;"	m	class:_TimeZone
@@ -14095,7 +14097,7 @@ elt	.venv/include/python3.7m/Python-ast.h	/^            expr_ty elt;$/;"	m	struc
 elts	.venv/include/python3.7m/Python-ast.h	/^            asdl_seq *elts;$/;"	m	struct:_expr::__anon481608971d0a::__anon481608972408	typeref:typename:asdl_seq *
 elts	.venv/include/python3.7m/Python-ast.h	/^            asdl_seq *elts;$/;"	m	struct:_expr::__anon481608971d0a::__anon481608973908	typeref:typename:asdl_seq *
 elts	.venv/include/python3.7m/Python-ast.h	/^            asdl_seq *elts;$/;"	m	struct:_expr::__anon481608971d0a::__anon481608973a08	typeref:typename:asdl_seq *
-email	swipe.py	/^    email    = args.email$/;"	v
+email	bumble-swiper.py	/^    email    = args.email$/;"	v
 emit	.venv/lib/python3.7/site-packages/pip/_vendor/distlib/__init__.py	/^        def emit(self, record): pass$/;"	m	class:NullHandler
 emitCurrentToken	.venv/lib/python3.7/site-packages/pip/_vendor/html5lib/_tokenizer.py	/^    def emitCurrentToken(self):$/;"	m	class:HTMLTokenizer
 empty	.venv/lib/python3.7/site-packages/pip/_vendor/pyparsing.py	/^empty       = Empty().setName("empty")$/;"	v
@@ -17345,7 +17347,7 @@ log	.venv/lib/python3.7/site-packages/urllib3/response.py	/^log = logging.getLog
 log	.venv/lib/python3.7/site-packages/urllib3/util/retry.py	/^log = logging.getLogger(__name__)$/;"	v
 log_debug	.venv/lib/python3.7/site-packages/setuptools/lib2to3_ex.py	/^    def log_debug(self, msg, *args):$/;"	m	class:DistutilsRefactoringTool
 log_error	.venv/lib/python3.7/site-packages/setuptools/lib2to3_ex.py	/^    def log_error(self, msg, *args, **kw):$/;"	m	class:DistutilsRefactoringTool
-log_in_with_facebook	swipe.py	/^def log_in_with_facebook(driver, email, password):$/;"	f
+log_in_with_facebook	bumble-swiper.py	/^def log_in_with_facebook(driver, email, password):$/;"	f
 log_message	.venv/lib/python3.7/site-packages/setuptools/lib2to3_ex.py	/^    def log_message(self, msg, *args):$/;"	m	class:DistutilsRefactoringTool
 log_streams	.venv/lib/python3.7/site-packages/pip/_internal/commands/freeze.py	/^    log_streams = ("ext:\/\/sys.stderr", "ext:\/\/sys.stderr")$/;"	v	class:FreezeCommand
 log_types	.venv/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py	/^    def log_types(self):$/;"	m	class:WebDriver
@@ -18462,7 +18464,7 @@ parsed_version	.venv/lib/python3.7/site-packages/pkg_resources/__init__.py	/^   
 parser	.venv/lib/python3.7/site-packages/pip/_vendor/pep517/build.py	/^parser = argparse.ArgumentParser()$/;"	v
 parser	.venv/lib/python3.7/site-packages/setuptools/config.py	/^        def parser(value):$/;"	f	member:ConfigHandler._exclude_files_parser	file:
 parser	.venv/lib/python3.7/site-packages/wheel/cli/__init__.py	/^def parser():$/;"	f
-parser	swipe.py	/^    parser = argparse.ArgumentParser(description="Auto swiper for bumble. Pass your Facebook ema/;"	v
+parser	bumble-swiper.py	/^    parser = argparse.ArgumentParser(description="Auto swiper for bumble. Pass your Facebook ema/;"	v
 parser_exit	.venv/lib/python3.7/site-packages/pip/_internal/req/req_file.py	/^    def parser_exit(self, msg):$/;"	f	function:build_parser	file:
 parsers	.venv/lib/python3.7/site-packages/setuptools/config.py	/^    def parsers(self):$/;"	m	class:ConfigHandler
 parsers	.venv/lib/python3.7/site-packages/setuptools/config.py	/^    def parsers(self):$/;"	m	class:ConfigMetadataHandler
@@ -18471,7 +18473,7 @@ partial	.venv/lib/python3.7/functools.py	/^class partial:$/;"	c
 partialmethod	.venv/lib/python3.7/functools.py	/^class partialmethod(object):$/;"	c
 partition	.venv/lib/python3.7/collections/__init__.py	/^    def partition(self, sep):$/;"	m	class:UserString
 pass_stmt	.venv/include/python3.7m/graminit.h	/^#define pass_stmt /;"	d
-password	swipe.py	/^    password = args.password$/;"	v
+password	bumble-swiper.py	/^    password = args.password$/;"	v
 patch	.venv/lib/python3.7/site-packages/pip/_vendor/requests/api.py	/^def patch(url, data=None, **kwargs):$/;"	f
 patch	.venv/lib/python3.7/site-packages/pip/_vendor/requests/sessions.py	/^    def patch(self, url, data=None, **kwargs):$/;"	m	class:Session
 patch	.venv/lib/python3.7/site-packages/setuptools/build_meta.py	/^    def patch(cls):$/;"	m	class:Distribution
@@ -20463,7 +20465,7 @@ surrogatePairToCodepoint	.venv/lib/python3.7/site-packages/pip/_vendor/html5lib/
 svg_allow_local_href	.venv/lib/python3.7/site-packages/pip/_vendor/html5lib/filters/sanitizer.py	/^svg_allow_local_href = frozenset(($/;"	v
 svg_attr_val_allows_ref	.venv/lib/python3.7/site-packages/pip/_vendor/html5lib/filters/sanitizer.py	/^svg_attr_val_allows_ref = frozenset(($/;"	v
 swapcase	.venv/lib/python3.7/collections/__init__.py	/^    def swapcase(self): return self.__class__(self.data.swapcase())$/;"	m	class:UserString
-swipe_right	swipe.py	/^def swipe_right(driver):$/;"	f
+swipe_right	bumble-swiper.py	/^def swipe_right(driver):$/;"	f
 switch	.venv/lib/python3.7/site-packages/pip/_internal/vcs/__init__.py	/^    def switch(self, dest, url, rev_options):$/;"	m	class:VersionControl
 switch	.venv/lib/python3.7/site-packages/pip/_internal/vcs/bazaar.py	/^    def switch(self, dest, url, rev_options):$/;"	m	class:Bazaar
 switch	.venv/lib/python3.7/site-packages/pip/_internal/vcs/git.py	/^    def switch(self, dest, url, rev_options):$/;"	m	class:Git
