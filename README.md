@@ -13,7 +13,7 @@ If you follow the install instructions, these should be installed automatically:
 ## Installation
 
 **Disclaimer:** These instructions are for GNU/Linux!! They *should* work on MacOS. You might need to change your PATH.
-**Windows users -- you're on your own!**
+**Windows users:** Install the dependencies manually and run `bumble-swiper.py` from command prompt with Python3.
 
 ```
 $ git clone https://github.com/HousedHorse/bumble-auto-swiper
