@@ -19,6 +19,16 @@ $ sudo make install
 
 ## Running
 
+### After Installation
+
 ```
 $ bumble-swiper <facebook-email> <facebook-password>
+```
+
+### Without Installation
+
+Clone this repo and navigate to the correct directory, then proceed as follows:
+
+```
+$ python3 bumble-swiper.py <facebook-email> <facebook-password>
 ```
