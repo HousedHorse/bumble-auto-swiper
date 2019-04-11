@@ -12,6 +12,9 @@ If you follow the install instructions, these should be installed automatically:
 
 ## Installation
 
+**Disclaimer:** These instructions are for GNU/Linux!! They *should* work on MacOS. You might need to change your PATH.
+**Windows users -- you're on your own!
+
 ```
 $ git clone https://github.com/HousedHorse/bumble-auto-swiper
 $ cd bumble-auto-swiper
