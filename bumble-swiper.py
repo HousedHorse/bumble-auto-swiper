@@ -50,12 +50,23 @@ def swipe_right(driver):
         except NoSuchElementException:
             pass
 
-        # check to see if we are all caught up
-        try:
-            driver.find_element_by_xpath("//span[contains(text(), 'all caught up')]")
+        if all_done(driver):
             return False
-        except NoSuchElementException:
-            pass
+
+def all_done(driver):
+    # check to see if we are all caught up
+    try:
+        driver.find_element_by_xpath("//*[contains(text(), 'all caught up')]")
+        return True
+    except NoSuchElementException:
+        pass
+    try:
+        driver.find_element_by_xpath("//*[contains(text(), 'bees in your area')]")
+        return True
+    except NoSuchElementException:
+        pass
+
+    return False;
 
 if __name__ == "__main__":
     # parse arguments
