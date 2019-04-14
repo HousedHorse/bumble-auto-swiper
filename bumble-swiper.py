@@ -51,10 +51,9 @@ def dismiss_match(driver):
 
 def swipe_right(driver):
     while True:
-        dismiss_match(driver)
-
         # swipe right if the window is loaded
         try:
+            dismiss_match(driver)
             driver.find_element_by_xpath("//div[contains(@class, 'encounters-action--like')]").click()
             return True
         except:
