@@ -44,7 +44,7 @@ def log_in_with_facebook(driver, email, password):
 
 def dismiss_match(driver):
     try:
-        driver.find_element_by_xpath("//*[contains(@class, 'button--transparent')]").click()
+        driver.find_element_by_xpath("//*[contains(@class, 'button--transparent') and not contains(@class, 'button--narrow')]").click()
         return True
     except NoSuchElementException:
         return False
