@@ -8,7 +8,7 @@ An autoswiper Python3 script for Bumble.
 If you follow the install instructions, these should be installed automatically:
 
 - Selenium 3.141.0
-- urllib 1.24.1
+- urllib 1.24.3
 
 ## Installation
 
